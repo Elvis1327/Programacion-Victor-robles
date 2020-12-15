@@ -1,0 +1,29 @@
+<section class="container">
+  <h1>Bienvenido a mi aplicacion web</h1>
+  <h2>Para poder iniciar en mi aplicacion web deberas primero ingresar :D</h2>
+
+
+  <form #Contacto (ngSubmit)="getSubmit()">
+    <div class="form-group">
+      <label for="name"> Nombre</label> <br>
+      <input type="text" id="name" class="form-control"> <br>
+    </div>
+
+    <div form-group>
+      <label for="apellidos">Apellidos</label> <br>
+      <input type="text" id="lastname" class="form-control"> <br>
+    </div>
+
+    <div class="form-group">
+      <label for="age">Edad</label> <br>
+      <input type="text" id="age" class="form-control"> <br>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label> <br>
+      <input type="text" id="email" class="form-control"> <br>
+    </div>
+
+    <input type="submit" value="enviar" id="boton" class="btn btn-primary">
+  </form>
+</section>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>bienvenido a mi pagina web</title>
+        <script type="text/javascript" src="validado.js"></script>
+        <link rel="stylesheet" href="validado.css">
+    </head>
+
+    <body>
+
+        <h1>Bienvenido a mi pagina web para accder a ella deberas llenar el formulario</h1>
+
+        <div class="box">
+            <form action="POST" id="formulario" onsubmit="return false">
+                <label for="name">Nombre:</label> <br>
+                <input type="text" name="Nombre" id="name"> <br>
+    
+                <label for="apellido">Apellido:</label> <br>
+                <input type="text" name="apellido" id="lastname"> <br>
+
+                <label for="edad">Edad:</label> <br>
+                <input typ="text" name="edad" id="age"> <br>
+
+                <input type="submit" value="enviar" id="boton"> <br>
+            </form>
+        </div>
+
+        <div class="box dashed">
+          <h3>informacion del usuario</h3>
+            <hr>
+            <p id="p_name">
+                Nombre: <span></span>
+            </p>
+
+            <p id="p_lastname">
+                Apellidos: <span></span>
+            </p>
+
+            <p id="p_age">
+                Edad: <span></span>
+            </p>
+
+        </div>
+
+
+       
+  
+    </body>
+
+
+
+</html>

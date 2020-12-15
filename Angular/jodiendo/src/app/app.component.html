@@ -1,0 +1,26 @@
+
+<section class="container">
+<nav class="navbar navbar-expand-lg navbar-light bg-dark" >
+  <button class="navbar-toggler" data-target="#menu" data-toggle="collapse">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="menu">
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item active">
+      <a [routerLink]="['/inicio']" class="nav-link">Inicio</a>
+      &nbsp;
+    </li>
+    <li class="nav-item active">
+      <a [routerLink]="['/ropa']" class="nav-link">Marcas</a>
+    </li>
+    <li class="nav-item active">
+      <a [routerLink]="['/externo']" class="nav-link">Api</a>
+    </li>
+  </ul>
+</div>
+</nav>
+<router-outlet></router-outlet>
+</section>
+
+
+

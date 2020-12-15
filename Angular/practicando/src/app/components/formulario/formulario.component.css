@@ -1,0 +1,36 @@
+
+
+#caja{
+text-align: center;
+  width: 500px;
+  height: 400px;
+  margin: 0px auto;
+  margin-top: 20px;
+  text-align: center;
+  background: #cccccc;
+  border: 1px solid #cccccc;
+}
+
+.caja2{
+  padding: 12px;
+}
+
+.caja2 input{
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 3px;
+}
+
+#boton{
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  color: black;
+  font-family: "Helvetica";
+  font-size: 16px;
+  font-weight: bold;
+  background: rgb(24, 224, 181);
+  cursor: pointer;
+}

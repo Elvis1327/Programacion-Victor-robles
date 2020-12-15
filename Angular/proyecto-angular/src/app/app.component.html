@@ -1,0 +1,18 @@
+<header id="header">
+<ul>
+  <li><a [routerLink]="['/sobre-mi']" [routerLinkActive]="['actived']">Sobre mi</a></li>
+  <li><a [routerLink]="['/proyectos']" [routerLinkActive]="['actived']">Proyectos</a></li>
+  <li id="logo"><a href="#">EG</a></li>
+  <li><a [routerLink]="['/formulario']" [routerLinkActive]="['actived']">Crear Proyecto</a></li>
+  <li><a [routerLink]="['/contacto']" [routerLinkActive]="['actived']">Contacto</a></li>
+</ul>
+</header>
+
+<section id="content">
+  <router-outlet></router-outlet>
+</section>
+
+<footer>
+  Master en Javascript de Elvis Garcia &copy;
+</footer>
+

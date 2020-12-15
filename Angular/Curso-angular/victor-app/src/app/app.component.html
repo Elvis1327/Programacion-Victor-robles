@@ -1,0 +1,31 @@
+<h1>{{title}}</h1>
+<h2>{{descripcion}}</h2>
+
+<nav id="menu">
+  <ul>
+    <li>
+      <a [routerLink]="['/home']">Home</a>
+      &nbsp;
+    </li>
+    <li>
+      <a [routerLink]="['/videojuego']">Video Juego</a>
+      &nbsp;
+    </li>
+    <li>
+      <a [routerLink]="['/ropa']">Ropa</a>
+      &nbsp;
+    </li>
+    <li>
+      <a [routerLink]="['/tenis']">Tenis</a>
+      &nbsp;
+    </li>
+    <li>
+      <a [routerLink]="['/contacto']">Contacto</a>
+      &nbsp;
+    </li>
+  </ul>
+
+</nav>
+
+
+<router-outlet></router-outlet>

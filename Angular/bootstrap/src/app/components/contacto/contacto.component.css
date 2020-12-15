@@ -1,0 +1,45 @@
+#caja{
+  margin: 0px auto;
+  text-align: center;
+  padding: 6px;
+}
+
+#name1{
+  padding: 6px;
+  width: 30%;
+  border-radius: 6px;
+  margin-top: 3px;
+  margin-bottom: 6px;
+}
+
+#lastname1{
+  padding: 6px;
+  width: 30%;
+  border-radius: 6px;
+  margin-top: 3px;
+  margin-bottom: 6px;
+}
+#email1{
+  padding: 6px;
+  width: 30%;
+  border-radius: 6px;
+  margin-top: 3px;
+  margin-bottom: 6px;
+}
+#mensaje1{
+  padding: 6px;
+  width: 30%;
+  border-radius: 6px;
+  margin-top: 3px;
+  margin-bottom: 6px;
+}
+#boton{
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  background: #235e3d;
+  border-radius: 6px;
+  width: 100px;
+  cursor: pointer;
+}
+

@@ -1,0 +1,52 @@
+
+/*Inicio del Navbar*/
+#header{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: black;
+  height: 70px;
+}
+
+#logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  background: lightblue;
+  height: 50px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+}
+
+#lista{
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style: none;
+}
+
+#lista li{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#lista li:last-child{
+  padding-right: 40px;
+}
+
+#lista li a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+/*Fin del Navabar*/
+
+
+/*Inicio del contenido*/

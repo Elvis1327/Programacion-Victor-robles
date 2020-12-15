@@ -1,0 +1,38 @@
+#contenido-principal{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card{
+  width: 200px;
+  border: 1px solid #cccccc;
+  transition: all 300ms;
+  margin-left: 40px;
+}
+
+.card-body h1{
+  padding: 20px;
+  text-align: center;
+  background: lightblue;
+}
+
+.card-body p{
+  padding: 0px 0px;
+  text-align: center;
+  background: lightblue;
+
+}
+
+a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  background: linear-gradient(to right, lightblue, black);
+  text-align: center;
+  padding: 10px;
+}
+
+.card:hover{
+  transform: scale(1.1);
+}

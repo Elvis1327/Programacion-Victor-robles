@@ -1,0 +1,20 @@
+
+
+<div id="caja">
+  <h1>Formulario!</h1>
+<form #Contacto="ngForm" (ngSubmit)="onSubmit()">
+  <label for="nombre">Nombre:</label> <br>
+  <input type="text" name="nombre" #nombre="ngModel" [(ngModel)]="contacto.nombre" id="name1"> <br>
+
+  <label for="apellidos">Apellidos:</label> <br>
+  <input type="text" name="apellidos" id="lastname1"> <br>
+
+  <label for="email">Email:</label> <br>
+  <input type="text" name="email" id="email1"> <br>
+
+  <label for="mensaje">Mensaje:</label> <br>
+  <textarea name="mensaje" id="mensaje1"></textarea> <br>
+
+  <input type="submit" value="Enviar" id="boton"> <br>
+</form>
+</div>

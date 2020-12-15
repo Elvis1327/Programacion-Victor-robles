@@ -1,0 +1,11 @@
+.box{
+    width: 250px;
+    height: 200px;
+    float: left;
+    margin: 10px;
+}
+
+.dashed {
+    border: dashed black;
+    padding: 3px;
+}
